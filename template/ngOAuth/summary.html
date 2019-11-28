@@ -1,0 +1,29 @@
+ <div class="row" style="background-color:darkblue">
+
+
+
+
+
+
+
+<div style="color: yellow; background-color: darkblue" class="col-md-6">Hello, <div ng-if="ngOAuth.$auth.id">
+
+id: {{ ngOAuth.$auth.id }} name: {{ ngOAuth.$auth.name }}  <br>
+oauthtoken: {{ ngOAuth.$auth.oauthtoken }}  <br>
+ refreshtoken: {{ ngOAuth.$auth.refreshtoken }}  
+
+    <form method="get" action="logout.html">
+    <button type="submit">Logout</button>
+</form>
+</div>
+
+
+</div>
+
+</div>
+
+<div ng-if="!ngOAuth.$auth.id">
+    <form method="get" action="index.html">
+    <button type="submit">Signin</button>
+</form></div>
+ 

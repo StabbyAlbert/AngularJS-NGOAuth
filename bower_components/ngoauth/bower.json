@@ -1,0 +1,16 @@
+{
+  "name": "ngOAuth",
+  "description": "OAuth authentication for AngularJS",
+  "keywords": ["AngularJS", "module", "directive", "authentication", "oauth", "ngoauth"],
+  "authors": {"name":"Albert Chen", "email":"albertkeylime@gmail.com>"},
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/ngOAuth.js",
+  "private": false,
+  "dependencies": {
+    "angular": ">=1.2.x"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1.2.x"
+  }
+}
